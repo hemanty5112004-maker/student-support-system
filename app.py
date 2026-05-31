@@ -4,35 +4,53 @@ from datetime import datetime
 app = Flask(__name__)
 
 responses = {
-    "admission": "Admissions for new students usually start in July. Students can visit the admission section of the university website for detailed information. To take admission in university there are two methods online and offline.",
+    "admission": "Admissions for new students usually start in July. Students can visit the admission section of the university website for detailed information. To take admission in university there are two methods online and offline. In online method apply for the course and give an entrance test and for offline if there will be seats vacant there will be offline counseling",
 
-    "exam": "The examination schedule is updated by the university before exams begin.",
+    "exam": "The examination schedule is updated by the university before exams begin. Students should regularly check notices for the exam datesheet.",
 
-    "result": "Students can check their results through the university result portal using their roll number.",
+    "result": "Students can check their results through the university result portal using their roll number and the result is usually uploaded in 3 to 4 months.",
 
-    "sports": "Sports activities and events are updated by the sports department regularly.",
+    "sports": "Sports activities and events are updated by the sports department regularly. Multiple sports are present in the university.",
 
     "notice": "All university notices are available on the notice board section of the portal.",
 
-    "scholarship": "Scholarship information can be collected from the scholarship section.",
+    "scholarship": "Scholarship information can be collected from the scholarship section or university administration office or in your department office.",
 
-    "library": "The university library is open during working hours for all registered students.",
+    "library": "The university library is open during working hours for all registered students. For applying for a library card contact the librarian.",
 
-    "hostel": "Hostel rooms are allotted according to university rules.",
+    "hostel": "Hostel rooms are allotted according to university rules. Students can contact the hostel office for more details. Rooms will be fully furnished and maintained.",
 
-    "fees": "Students can submit their fees online through the university portal.",
+    "fees": "Students can submit their fees online through the university portal or at the fee counter. For offline fee deposit student can take a fee challan from their department and fill it and submit fees in the university bank.",
 
-    "attendance": "Students are advised to maintain proper attendance.",
+    "attendance": "Students are advised to maintain proper attendance as per university guidelines.",
 
     "placement": "Placement activities and company visit updates are shared by the placement cell.",
 
-    "holiday": "Holiday lists and vacation schedules are updated through official notices.",
+    "holiday": "Holiday lists and vacation schedules are updated through official university notices.",
 
-    "id card": "Students can collect ID cards from their department office.",
+    "id card": "Students can apply for or collect ID cards from their department office.",
 
-    "syllabus": "Course syllabus can be downloaded from the academic section.",
+    "migration": "Migration certificate details are available in the administration section.",
 
-    "timetable": "Class timetables are provided before semester starts.",
+    "syllabus": "Course syllabus can be downloaded from the university academic section.",
+
+    "timetable": "Class timetables are provided by departments before the semester starts.",
+
+    "registration": "Semester registration details are updated regularly on the university portal.",
+
+    "documents": "Students should keep photocopies of important academic documents and passport size photographs during admission and verification.",
+
+    "certificate": "Degree and other certificates can be collected from the examination branch after approval.",
+
+    "reappear": "Students who want to apply for reappear exams should fill the reappear form before the last date.",
+
+    "practical": "Practical exam dates are usually announced by departments before examinations.",
+
+    "internship": "Internship opportunities and training information are shared by departments and placement cells.",
+
+    "canteen": "The university canteen provides food and refreshments during working hours.",
+
+    "wifi": "WiFi facility may be available in selected university areas for students and staff.",
 
     "bus": "Bus route and transport information can be collected from the transport department."
 }
